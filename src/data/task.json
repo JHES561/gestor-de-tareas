@@ -1,0 +1,12 @@
+[
+    {
+        "titulo": "estudiar vue",
+        "descripcion": "repasar componentes",
+        "completadoa": false 
+    },
+        {
+        "titulo": "ejercitarse",
+        "descripcion": "correr 20minutos",
+        "completadoa": true 
+    }
+]
