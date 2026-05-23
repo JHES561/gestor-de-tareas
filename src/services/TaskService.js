@@ -1,5 +1,25 @@
-import task from '..data/task.json'
+const KEY = 'tareas'
 
-const KEY = 'tarea'
+export function getTasks(){
 
-export function getTask();
+  const tareas =
+  localStorage.getItem(KEY)
+
+  if(tareas){
+
+    return JSON.parse(tareas)
+
+  }
+
+  return []
+
+}
+
+export function saveTasks(tareas){
+
+  localStorage.setItem(
+    KEY,
+    JSON.stringify(tareas)
+  )
+
+}
